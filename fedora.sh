@@ -61,7 +61,11 @@ echo ""
 echo "TODOS OS APPS FLATPAKs FORAM INSTALADOS!"
 echo ""
 
+$install snapd
 $install gnome-tweaks
+$install git
+$install nodejs
+
 echo ""
 echo "TODOS OS APPS RPMs FORAM INSTALADOS!"
 echo ""
