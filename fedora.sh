@@ -1,18 +1,16 @@
 #!/bin/bash 
 
 #Variáveis 
-install="sudo dnf install"
+install="sudo dnf install -y"
+remove="sudo dnf remove -y"
 install_snap="sudo snap install"
-up="sudo dnf update"
-up_flatpak="flatpak update"
-autoclean="sudo dnf autoclean"
+up="sudo dnf update -y"
+autoclean="sudo dnf autoclean -y"
 
 EXTENSOES_INSTALADAS=$(gnome-extensions list --enabled --user | awk '{print $1}')
 
 programas_flatpak=(
 	app.drey.Dialect
-	app.drey.Warp
-	com.authy.Authy
 	com.bitwarden.desktop
 	com.discordapp.Discord
 	com.github.finefindus.eyedropper
@@ -24,11 +22,9 @@ programas_flatpak=(
 	fr.handbrake.ghb
 	hu.kramo.Cartridges
 	io.bassi.Amberol
-	io.github.celluloid_player.Celluloid
-	io.github.flattool.Warehouse
+	# io.github.celluloid_player.Celluloid
 	io.github.giantpinkrobots.flatsweep
 	io.github.shiftey.Desktop
-	io.gitlab.gregorni.Letterpress
 	io.gitlab.theevilskeleton.Upscaler
 	net.epson.epsonscan2
 	org.flatpak.Builder
@@ -66,8 +62,10 @@ $install snapd
 $install gnome-tweaks
 $install git
 $install nodejs
+#$install yaru-theme.noarch
 
 $install_snap multipass
+$install_snap authy
 
 echo ""
 echo "TODOS OS APPS RPMs FORAM INSTALADOS!"
@@ -80,6 +78,10 @@ echo ""
 echo "VM CRIADA!"
 echo ""
 
+#Removendo apps
+
+$remove firefox
+
 #Removendo Extenções
 for extensao in $EXTENSOES_INSTALADAS; do
   gnome-extensions disable "$extensao"
@@ -91,7 +93,6 @@ echo ""
 
 #Atualizando e Limpando Sistema
 $up
-$up_flatpak
 $autoclean
 echo ""
 echo "SISTEMA ATUALIZANDO E LIMPADO!"
