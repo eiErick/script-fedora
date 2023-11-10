@@ -90,9 +90,9 @@ echo "TODAS AS EXTENSÕES FORAM DESATIVADAS!"
 echo ""
 
 #Atualizando e Limpando Sistema
-up
-up_flatpak
-autoclean
+$up
+$up_flatpak
+$autoclean
 echo ""
 echo "SISTEMA ATUALIZANDO E LIMPADO!"
 echo ""
