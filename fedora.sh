@@ -2,6 +2,7 @@
 
 #Variáveis 
 install="sudo dnf install"
+install_snap="sudo snap install"
 up="sudo dnf update"
 up_flatpak="flatpak update"
 autoclean="sudo dnf autoclean"
@@ -66,8 +67,17 @@ $install gnome-tweaks
 $install git
 $install nodejs
 
+$install_snap multipass
+
 echo ""
 echo "TODOS OS APPS RPMs FORAM INSTALADOS!"
+echo ""
+
+#Criando VM do Ubuntu Com Multipass
+multipass launch 22.04 --name server
+
+echo ""
+echo "VM CRIADA!"
 echo ""
 
 #Removendo Extenções
