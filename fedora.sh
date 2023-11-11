@@ -66,6 +66,7 @@ $install nodejs
 
 $install_snap multipass
 $install_snap authy
+$install_snap chromium
 
 echo ""
 echo "TODOS OS APPS RPMs FORAM INSTALADOS!"
