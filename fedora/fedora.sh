@@ -32,7 +32,6 @@ programas_flatpak=(
 	org.gnome.Boxes
 	org.gnome.Builder
 	org.gnome.Calendar
-	org.gnome.Dictionary
 	org.gnome.Geary
 	org.gnome.Loupe
 	org.gnome.Loupe.HEIC
