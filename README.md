@@ -10,7 +10,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - Git e Github
 ## :memo: Licença
 
-Esse projeto está sob a licença GPL-3.0.
+Esse projeto está sob a licença GPL-3.0
 ---
 
 Feito com ♥ by Érick
