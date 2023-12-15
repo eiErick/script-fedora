@@ -24,5 +24,8 @@ touch $paste/snap.txt
 flatpak list --app --columns=application > $paste/flatpak.txt
 snap list | awk '{print $1}' | tail -n +2 > $paste/snap.txt
 
+cp ~/.bash_aliases $paste
+mv $paste/.bash_aliases $paste/aliases.txt
+
 echo ""
 echo "Seus dados foram salvos em '$paste'"
