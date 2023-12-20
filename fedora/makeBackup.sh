@@ -1,8 +1,8 @@
 #!/bin/bash
-paste="./backup"
+paste="./data"
 
 if [ -d "$paste" ]; then
-	echo "ATENÇÃO: A pasta backup já existe neste diretório, deseja apagar? [s/n]"
+	echo "ATENÇÃO: A pasta $paste já existe neste diretório, deseja apagar? [s/n]"
 	
 	read response 
 	if [ "$response" == "s" ]; then 
