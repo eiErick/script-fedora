@@ -4,8 +4,10 @@ com.github.finefindus.eyedropper
 com.github.tchx84.Flatseal
 com.github.unrud.VideoDownloader
 com.mattjakeman.ExtensionManager
+com.rafaelmardojai.Blanket
 com.spotify.Client
 com.valvesoftware.Steam
+dev.Cogitri.Health
 fr.handbrake.ghb
 hu.kramo.Cartridges
 im.riot.Riot
@@ -25,6 +27,7 @@ org.gnome.Calculator
 org.gnome.Calendar
 org.gnome.Characters
 org.gnome.Contacts
+org.gnome.DejaDup
 org.gnome.Evince
 org.gnome.Loupe
 org.gnome.Shotwell

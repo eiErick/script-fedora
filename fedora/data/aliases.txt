@@ -7,6 +7,7 @@ alias autoremove="sudo dnf autoremove"
 
 ### Navegação
 alias ..="cd .."
+alias la="ls -la"
 
 ### Apps
 alias open="flatpak run org.gnome.TextEditor"
@@ -22,3 +23,8 @@ alias fwStatus="sudo systemctl status firewalld"
 alias server="multipass shell"
 alias serverStop="multipass stop"
 alias serverStart="multipass start"
+
+### git
+alias commit="git commit -m"
+alias add="git add ."
+alias diff="git diff"
