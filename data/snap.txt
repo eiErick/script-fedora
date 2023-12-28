@@ -1,0 +1,13 @@
+authy
+bare
+chromium
+codium
+core18
+core20
+core22
+cups
+gnome-3-28-1804
+gnome-42-2204
+gtk-common-themes
+multipass
+snapd
