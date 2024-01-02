@@ -15,6 +15,7 @@ alias open="flatpak run org.gnome.TextEditor"
 alias firefox="flatpak run org.mozilla.firefox"
 alias vsc="snap run codium" 
 alias builder="flatpak run org.gnome.Builder"
+alias github="flatpak run io.github.shiftey.Desktop"
 
 ### Firewall
 alias fwStop="sudo systemctl stop firewalld"
@@ -32,3 +33,4 @@ alias add="git add ."
 alias diff="git diff"
 alias pull="git pull"
 alias push="git push"
+alias clone="git clone"
