@@ -1,13 +1,23 @@
 #!/bin/bash 
 
 #Variáveis 
+
 install="sudo apt install"
 install_snap="sudo snap install"
 up="sudo apt update"
 upgrade="sudo apt upgrade"
 autoclean="sudo apt autoclean"
 
+#Cria estrutura de pastas
+
+mkdir ~/desktop
+mkdir ~/downloads
+mkdir ~/docs
+mkdir ~/dev
+mkdir ~/labs
+
 #Instalando apps
+
 $up
 
 $install git
@@ -20,6 +30,7 @@ echo "APPS INSTALADOS!"
 echo ""
 
 #Atualizando e Limpando Sistema
+
 up
 autoclean
 
@@ -28,6 +39,7 @@ echo "SISTEMA ATUALIZANDO E LIMPADO!"
 echo ""
 
 #Sucesso
+
 echo ""
 echo "TUDO FOI CONCLUíDO!"
 echo ""
