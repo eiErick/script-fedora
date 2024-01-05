@@ -1,11 +1,13 @@
 #!/bin/bash 
 
 #Variáveis 
+
 install="sudo dnf install -y"
 remove="sudo dnf remove -y"
 install_snap="sudo snap install"
 up="sudo dnf update -y"
 autoclean="sudo dnf autoclean -y"
+myScripts="git clone git@github.com:eiErick/scripts.git ~/.scripts"
 
 EXTENSOES_INSTALADAS=$(gnome-extensions list --enabled --user | awk '{print $1}')
 
@@ -45,7 +47,8 @@ programas_flatpak=(
 	org.videolan.VLC
 )
 
-#Instalando apps
+# Instalando apps
+
 for nome_do_programa in ${programas_flatpak[@]}; do
   if ! flatpak list | grep -q $nome_do_programa; then
     flatpak install flathub $nome_do_programa -y
@@ -71,7 +74,13 @@ echo ""
 echo "TODOS OS APPS RPMs FORAM INSTALADOS!"
 echo ""
 
+#instalando meu script
+
+mkdir ~/.scripts
+$myScripts
+
 #Criando VM do Ubuntu Com Multipass
+
 multipass launch 22.04 --name server
 
 echo ""
@@ -83,6 +92,7 @@ echo ""
 $remove firefox
 
 #Removendo Extenções
+
 for extensao in $EXTENSOES_INSTALADAS; do
   gnome-extensions disable "$extensao"
   echo "Removendo extensão - $extensao"
@@ -92,6 +102,7 @@ echo "TODAS AS EXTENSÕES FORAM DESATIVADAS!"
 echo ""
 
 #Atualizando e Limpando Sistema
+
 $up
 $autoclean
 echo ""
@@ -99,6 +110,7 @@ echo "SISTEMA ATUALIZANDO E LIMPADO!"
 echo ""
 
 #Sucesso
+
 echo ""
 echo "TUDO FOI CONCLUíDO!"
 echo ""
