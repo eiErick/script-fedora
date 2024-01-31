@@ -64,6 +64,7 @@ $install snapd
 $install gnome-tweaks
 $install git
 $install nodejs
+$install bat
 #$install yaru-theme.noarch
 
 $install_snap multipass
