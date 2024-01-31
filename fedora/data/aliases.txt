@@ -9,11 +9,16 @@ alias search="sudo dnf search"
 ### Navegação
 alias ..="cd .."
 alias la="ls -la"
+alias cat="bat"
+alias trash="cd ~/.local/share/Trash/files"
+alias ctrash="rm -rf ~/.local/share/Trash/files/"
 
 ### Apps
 alias open="flatpak run org.gnome.TextEditor"
 alias firefox="flatpak run org.mozilla.firefox"
 alias vsc="snap run codium" 
+alias vcs="vsc"
+alias coder="vsc"
 alias builder="flatpak run org.gnome.Builder"
 alias github="flatpak run io.github.shiftey.Desktop"
 
@@ -34,3 +39,6 @@ alias diff="git diff"
 alias pull="git pull"
 alias push="git push"
 alias clone="git clone"
+
+### Sistema 
+alias off="poweroff"
