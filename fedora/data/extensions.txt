@@ -1,12 +1,7 @@
 gsconnect@andyholmes.github.io
 appindicatorsupport@rgcjonas.gmail.com
-dash-to-dock@micxgx.gmail.com
-clipboard-indicator@tudmotu.com
-compiz-windows-effect@hermes83.github.com
-lockkeys@vaina.lt
-caffeine@patapon.info
-NotificationCounter@coolllsk
 AlphabeticalAppGrid@stuarthayhurst
+drive-menu@gnome-shell-extensions.gcampax.github.com
 apps-menu@gnome-shell-extensions.gcampax.github.com
 background-logo@fedorahosted.org
 launch-new-instance@gnome-shell-extensions.gcampax.github.com
