@@ -2,6 +2,7 @@ gsconnect@andyholmes.github.io
 appindicatorsupport@rgcjonas.gmail.com
 AlphabeticalAppGrid@stuarthayhurst
 drive-menu@gnome-shell-extensions.gcampax.github.com
+dash-to-dock@micxgx.gmail.com
 apps-menu@gnome-shell-extensions.gcampax.github.com
 background-logo@fedorahosted.org
 launch-new-instance@gnome-shell-extensions.gcampax.github.com

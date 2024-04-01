@@ -7,16 +7,12 @@ com.mattjakeman.ExtensionManager
 com.spotify.Client
 com.valvesoftware.Steam
 fr.handbrake.ghb
-hu.kramo.Cartridges
 io.bassi.Amberol
 io.github.celluloid_player.Celluloid
 io.github.shiftey.Desktop
 io.gitlab.news_flash.NewsFlash
-it.mijorus.gearlever
-net.brinkervii.grapejuice
 net.nokyan.Resources
 org.flatpak.Builder
-org.flatpak.Hello
 org.gimp.GIMP
 org.gnome.Boxes
 org.gnome.Builder
@@ -30,7 +26,7 @@ org.gnome.TextEditor
 org.gnome.clocks
 org.gnome.design.IconLibrary
 org.gnome.font-viewer
+org.gnome.gitlab.somas.Apostrophe
 org.libreoffice.LibreOffice
 org.mozilla.firefox
 org.videolan.VLC
-re.sonny.Workbench

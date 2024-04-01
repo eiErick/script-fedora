@@ -31,3 +31,26 @@ mv $paste/.bash_aliases $paste/aliases.txt
 
 echo ""
 echo "Seus dados foram salvos em '$paste'"
+
+# commit de documents
+
+echo ""
+echo "Você deseja fazer commit da pasta Documents? [s/n]"
+read response
+if [ "$response" == "s" ]; then
+	echo ""
+	echo "Fazendo commit..."
+
+	echo ""
+	cd /home/erick/Documents
+	git add .
+	git commit -m "$(date '+backup: %d/%m/%Y')"
+
+	echo ""
+	echo "commit realizado com sucesso..."
+else
+	echo ""
+	echo "Operação de commit da pasta Documents foi cancelada!"
+fi
+
+echo ""
