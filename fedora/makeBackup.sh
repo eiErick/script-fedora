@@ -42,7 +42,7 @@ if [ "$response" == "s" ]; then
 	echo "Fazendo commit..."
 
 	echo ""
-	cd /home/erick/Documents
+	cd ~/Documents
 	git add .
 	git commit -m "$(date '+backup: %d/%m/%Y')"
 
