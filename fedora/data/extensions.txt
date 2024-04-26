@@ -1,6 +1,5 @@
 gsconnect@andyholmes.github.io
 AlphabeticalAppGrid@stuarthayhurst
-drive-menu@gnome-shell-extensions.gcampax.github.com
 apps-menu@gnome-shell-extensions.gcampax.github.com
 background-logo@fedorahosted.org
 launch-new-instance@gnome-shell-extensions.gcampax.github.com
