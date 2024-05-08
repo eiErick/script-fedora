@@ -65,6 +65,8 @@ $install gnome-tweaks
 $install git
 $install nodejs
 $install bat
+$install https://downloads.sourceforge.net/project/mscorefonts2/rpms/msttcore-fonts-installer-2.6-1.noarch.rpm
+
 #$install yaru-theme.noarch
 
 $install_snap multipass
