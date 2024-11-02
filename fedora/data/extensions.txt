@@ -1,7 +1,11 @@
 gsconnect@andyholmes.github.io
 AlphabeticalAppGrid@stuarthayhurst
-apps-menu@gnome-shell-extensions.gcampax.github.com
-background-logo@fedorahosted.org
-launch-new-instance@gnome-shell-extensions.gcampax.github.com
+appindicatorsupport@rgcjonas.gmail.com
+clipboard-indicator@tudmotu.com
+color-picker@tuberry
+blur-my-shell@aunetx
+drive-menu@gnome-shell-extensions.gcampax.github.com
 places-menu@gnome-shell-extensions.gcampax.github.com
-window-list@gnome-shell-extensions.gcampax.github.com
+Vitals@CoreCoding.com
+dash-to-dock@micxgx.gmail.com
+background-logo@fedorahosted.org
