@@ -2,7 +2,9 @@
 alias update="~/.scripts/fedora/up.sh"
 alias up="update"
 alias remove="sudo dnf remove"
+alias un="remove"
 alias install="sudo dnf install"
+alias in="install"
 alias autoremove="sudo dnf autoremove"
 alias search="sudo dnf search"
 
@@ -17,6 +19,8 @@ alias documents="cd ~/Documents"
 alias desktop="cd ~/Desktop"
 alias desk="desktop"
 alias downloads="cd ~/Downloads"
+alias nvimconfig="cd ~/.config/nvim/"
+alias aliases="nvim ~/.bash_aliases"
 
 ### Apps
 alias open="flatpak run org.gnome.TextEditor"
@@ -47,3 +51,6 @@ alias clone="git clone"
 
 ### Sistema 
 alias off="poweroff"
+
+### Etx
+alias cpp="g++"

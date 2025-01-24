@@ -1,5 +1,6 @@
 bare
 chromium
+code
 core18
 core20
 core22

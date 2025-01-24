@@ -5,7 +5,6 @@ clipboard-indicator@tudmotu.com
 color-picker@tuberry
 blur-my-shell@aunetx
 drive-menu@gnome-shell-extensions.gcampax.github.com
-places-menu@gnome-shell-extensions.gcampax.github.com
 Vitals@CoreCoding.com
 dash-to-dock@micxgx.gmail.com
 background-logo@fedorahosted.org
